@@ -22,7 +22,7 @@ jobs:
           # extended: true
 
       - name: Build
-        working-directory:  ./src/
+        working-directory:  ./src/unity/
         run: hugo --minify -d  ${GITHUB_WORKSPACE}/siteartifacts --environment production
 
       - name: Deploy
