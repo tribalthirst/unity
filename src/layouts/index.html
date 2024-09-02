@@ -242,7 +242,7 @@
               </p>
             </div>
 
-            <div style="width: 50%; display: flex; flex-direction: column">
+            <div style="width: 50%; display: flex; float: left; flex-direction: column">
               <div
                 style="
                   height: 60%;
@@ -297,9 +297,6 @@
         </div>
       </section>
     </main>
-
-    <footer>
-      <p>&copy; 2022 My Website. All rights reserved.</p>
-    </footer>
+    {{ partial "footer/footer.html" . }}
   </body>
 </html>

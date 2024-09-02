@@ -653,6 +653,32 @@ a {
     pointer-events: none;
 
 }
+.hero-section::after{    content: "";
+  background-image: linear-gradient(90deg, rgba(24, 28, 74, 0.83) 2%, rgba(227, 180, 98, 0.31));
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;}
+
+.site-footer::before{
+  content: "";
+    background-image: url(https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: inherit;
+    pointer-events: none;
+    opacity: 0.1;
+}
 
 .main-navigation:not(.toggled) ul li.sfHover > ul,
 .main-navigation:not(.toggled) ul li:hover > ul {
