@@ -626,6 +626,34 @@ a {
   right: 0;
 }
 
+.main-navigation .main-nav ul li[class*="current-menu-"] > a {
+    color: #ffffff;
+}
+
+.hero-section{
+    max-width: 1300px;
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.hero-section::before{
+    content: "";
+    background-image: url(https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: inherit;
+    pointer-events: none;
+
+}
+
 .main-navigation:not(.toggled) ul li.sfHover > ul,
 .main-navigation:not(.toggled) ul li:hover > ul {
   left: auto;
