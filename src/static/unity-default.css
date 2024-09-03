@@ -580,24 +580,31 @@ a {
   overflow: hidden;
 }
 
-.main-navigation a, .main-navigation .menu-toggle, .main-navigation .menu-bar-items {
-    font-family: Nunito, sans-serif;
-    font-weight: 600;
-    font-size: 18px;
+.main-navigation a,
+.main-navigation .menu-toggle,
+.main-navigation .menu-bar-items {
+  font-family: Nunito, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
 }
 
-.main-navigation .main-nav ul li a, .main-navigation .menu-toggle, .main-navigation .menu-bar-items {
-    color: var(--color-contrast-5);
+.main-navigation .main-nav ul li a,
+.main-navigation .menu-toggle,
+.main-navigation .menu-bar-items {
+  color: var(--color-contrast-5);
 }
 
-.main-navigation .main-nav ul li:not([class*="current-menu-"]):hover > a, .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus > a, .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"]) > a, .main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a {
-    color: var(--color-contrast-4);
+.main-navigation .main-nav ul li:not([class*="current-menu-"]):hover > a,
+.main-navigation .main-nav ul li:not([class*="current-menu-"]):focus > a,
+.main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"]) > a,
+.main-navigation .menu-bar-item:hover > a,
+.main-navigation .menu-bar-item.sfHover > a {
+  color: var(--color-contrast-4);
 }
 
 .main-navigation .main-nav ul li[class*="current-menu-"] > a {
-    color: #ffffff;
+  color: #ffffff;
 }
-
 
 .main-navigation ul ul a {
   display: block;
@@ -627,57 +634,118 @@ a {
 }
 
 .main-navigation .main-nav ul li[class*="current-menu-"] > a {
-    color: #ffffff;
+  color: #ffffff;
+}
+.gold-panel-left {
+  margin-bottom: 80px;
+  background-image: linear-gradient(
+    90deg,
+    var(--color-base-1) 30%,
+    var(--color-base-2) 30%
+  );
 }
 
-.hero-section{
-    max-width: 1300px;
-    height: 100vh;
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: hidden;
+.gold-panel-right {
+  margin-bottom: 80px;
+  background-image: linear-gradient(
+    270deg,
+    var(--color-base-1) 30%,
+    var(--color-base-2) 30%
+  );
 }
-.hero-section::before{
-    content: "";
-    background-image: url(https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/hero-image.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    z-index: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transition: inherit;
-    pointer-events: none;
 
+.gold-panel-inner {
+  display: flex;
+  align-items: center;
+  column-gap: 80px;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 40px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.hero-section::after{    content: "";
-  background-image: linear-gradient(90deg, rgba(24, 28, 74, 0.83) 2%, rgba(227, 180, 98, 0.31));
+
+.gold-panel-picture {
+  width: 60%;
+  height: 100%;
+}
+
+.gold-panel-text {
+  width: 40%;
+  height: 100%;
+}
+.gold-panel-icon {
+  line-height: 0;
+  color: var(--color-base-1);
+  padding-bottom: 0.5em;
+}
+
+.gold-panel-svg{width: 2.5em;
+  height: 2.5em;
+  fill: currentColor;}
+
+h3.gold-panel-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  column-gap: 0.5em;
+  text-transform: capitalize;
+}
+
+
+.hero-section {
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.hero-section::before {
+  content: "";
+  background-image: url(https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   z-index: 0;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  pointer-events: none;}
-
-.site-footer::before{
+  transition: inherit;
+  pointer-events: none;
+}
+.hero-section::after {
   content: "";
-    background-image: url(https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/hero-image.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    z-index: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transition: inherit;
-    pointer-events: none;
-    opacity: 0.1;
+  background-image: linear-gradient(
+    90deg,
+    rgba(24, 28, 74, 0.83) 2%,
+    rgba(227, 180, 98, 0.31)
+  );
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.site-footer::before {
+  content: "";
+  background-image: url(https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: inherit;
+  pointer-events: none;
+  opacity: 0.1;
 }
 
 .main-navigation:not(.toggled) ul li.sfHover > ul,
@@ -735,14 +803,12 @@ a {
 
 .inside-header {
   padding: 20px 40px;
-
 }
 
 .site-logo {
   display: inline-block;
   max-width: 100%;
 }
-
 
 .site-logo .header-image {
   vertical-align: middle;
