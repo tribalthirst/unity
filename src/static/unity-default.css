@@ -693,6 +693,89 @@ h3.gold-panel-heading{
   text-transform: capitalize;
 }
 
+.header-banner{
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: var(--color-contrast-2);
+}
+.movement-panel{
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: var(--color-contrast);
+}
+
+.movement-panel::before{
+  content: "";
+  background-image: url(https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/people-seminar.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: inherit;
+  pointer-events: none;
+  opacity: 0.1;
+}
+
+
+
+.movement-panel-inner{
+  z-index: 1;
+  position: relative;
+  padding: 200px 40px;
+  margin-right: auto;
+  margin-left: auto;}
+
+.movement-panel-right{
+  width: 50%;
+  margin-left: auto;
+}
+
+
+.copyright{
+  font-size: 13px;
+    line-height: 2em;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.header-banner::before{
+  content: "";
+    background-image: url(https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: inherit;
+    pointer-events: none;
+    opacity: 0.35;
+}
+
+.header-banner-inner{
+    z-index: 1;
+    position: relative;
+    padding: 60px 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-banner-heading{
+  text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 0px;
+    color: var(--color-base-2);
+}
 
 .hero-section {
   height: 100vh;
