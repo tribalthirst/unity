@@ -1,0 +1,21 @@
+<nav
+  class="main-navigation has-menu-bar-items sub-menu-right"
+  id="site-navigation"
+  aria-label="Primary"
+  itemtype="https://schema.org/SiteNavigationElement"
+  itemscope=""
+>
+  <div class="inside-navigation grid-container">
+    <div id="primary-menu" class="main-nav">
+      <ul id="menu-main" class="menu sf-menu">
+        {{ range .Site.Menus.main }}
+        <li
+          class="{{ if or (eq .URL $.RelPermalink) (eq .URL $.Permalink) }}current-menu-item{{ end }}menu-item"
+        >
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>
