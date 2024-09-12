@@ -62,7 +62,7 @@
           padding: 12px 36px;
           text-transform: uppercase;
         "
-        href="https://bernadettes36.sg-host.com/contact/"
+        href="{{ absURL "/contact" }}"
         >Take action now</a
       >
     </div>
@@ -262,12 +262,14 @@
                 flex-direction: column;
               "
             >
+            
+      {{ $profile := (resources.Get "images/home/profile.jpg") }}
               <div
                 style="
                   height: 60%;
                   padding-top: 60px;
                   padding-left: 60px;
-                  background-image: url(https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/DCC_Portrait_1-scaled.jpg);
+                  background-image: url({{ $profile.Permalink }});
                   background-repeat: no-repeat;
                   background-position: center center;
                   background-size: cover;
@@ -309,7 +311,7 @@
                     padding: 12px 36px;
                     text-transform: uppercase;
                   "
-                  href="https://bernadettes36.sg-host.com/about-us/"
+                  href="{{ absURL "/about" }}"
                   >Learn More</a
                 >
               </div>
@@ -329,6 +331,7 @@
     "
   >
     <div>
+      {{ $hands := (resources.Get "images/home/hands.jpg") }}
       <div
         style="
           min-height: 500px;
@@ -337,7 +340,7 @@
           align-items: flex-end;
           justify-content: flex-end;
           text-align: right;
-          background-image: url(https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/zyx1bk9mqma.jpg);
+          background-image: url({{ $hands.Permalink }});
           background-repeat: no-repeat;
           background-position: center center;
           background-size: cover;
@@ -481,20 +484,25 @@
   <section class="gold-panel-left">
     <div class="gold-panel-inner">
       <div class="gold-panel-picture">
+       
+        {{ $engagement := resources.Get "images/home/public-engagement.jpg" }}
+ 
         <figure style="max-width: 100%; height: auto">
           <img
             style="box-sizing: border-box; height: auto; max-width: 100%"
             decoding="async"
             width="1000"
             height="560"
-            src="http://bernadettes36.sg-host.com/wp-content/uploads/2024/08/public-engagement.jpg"
+            src="{{ $engagement.Permalink }}"
             alt="Public Engagement"
             class="wp-image-1162"
             srcset="
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/public-engagement.jpg         1000w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/public-engagement-300x168.jpg  300w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/public-engagement-768x430.jpg  768w
-            "
+              {{ $engagement.Permalink }} 1000w,
+              {{ $engagement.Resize "300x200" }} 300w,
+              {{ $engagement.Resize "1024x684" }} 1024w,
+              {{ $engagement.Resize "768x513" }} 768w,
+              {{ $engagement.Resize "1536x1025" }} 1536w"
+            
             sizes="(max-width: 1000px) 100vw, 1000px"
           />
         </figure>
@@ -622,21 +630,22 @@
       </div>
 
       <div class="gold-panel-picture">
+        {{ $women := resources.Get "images/home/three-women.jpg" }}
         <figure class="wp-block-image size-full">
           <img
             loading="lazy"
             decoding="async"
             width="1600"
             height="1068"
-            src="http://bernadettes36.sg-host.com/wp-content/uploads/2024/08/ow5kp_pj85q.jpg"
+            src="{{ $women.Permalink }}"
             alt="three women sitting on sofa with MacBook"
             class="wp-image-1285"
             srcset="
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/ow5kp_pj85q.jpg           1600w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/ow5kp_pj85q-300x200.jpg    300w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/ow5kp_pj85q-1024x684.jpg  1024w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/ow5kp_pj85q-768x513.jpg    768w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/ow5kp_pj85q-1536x1025.jpg 1536w
+              {{ $women.Permalink}}           1600w,
+              {{ $women.RelPermalink}}    300w,
+              {{ $women.RelPermalink}}  1024w,
+              {{ $women.RelPermalink}}    768w,
+              {{ $women.RelPermalink}} 1536w
             "
             sizes="(max-width: 1600px) 100vw, 1600px"
           />
@@ -648,6 +657,8 @@
   <section class="gold-panel-left">
     <div class="gold-panel-inner">
       <div class="gold-panel-picture">
+        
+      {{ $storytelling := (resources.Get "images/home/microphone.jpg") }}
         <figure class="wp-block-image size-full">
           <img
             style="box-sizing: border-box; height: auto; max-width: 100%"
@@ -655,14 +666,14 @@
             decoding="async"
             width="1280"
             height="853"
-            src="http://bernadettes36.sg-host.com/wp-content/uploads/2024/08/storytelling.jpg"
+            src="{{ $storytelling.Permalink }}"
             alt="Black Microphone In Conference Room ."
             class="wp-image-1288"
             srcset="
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/storytelling.jpg          1280w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/storytelling-300x200.jpg   300w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/storytelling-1024x682.jpg 1024w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/storytelling-768x512.jpg   768w
+              {{ $storytelling.Permalink}}          1280w,
+              {{ $storytelling.Permalink}}   300w,
+              {{ $storytelling.Permalink}} 1024w,
+              {{ $storytelling.Permalink}}   768w
             "
             sizes="(max-width: 1280px) 100vw, 1280px"
           />
@@ -753,6 +764,8 @@
       </div>
 
       <div class="gold-panel-picture">
+        
+      {{ $backpack := (resources.Get "images/home/backpack.jpg") }}
         <figure>
           <img
             style="box-sizing: border-box; height: auto; max-width: 100%"
@@ -760,15 +773,15 @@
             decoding="async"
             width="1600"
             height="1067"
-            src="http://bernadettes36.sg-host.com/wp-content/uploads/2024/08/tiq6pg_rh3w.jpg"
+            src="{{ $backpack.Permalink }}"
             alt="woman in gray backpack walking on street"
             class="wp-image-1114"
             srcset="
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/tiq6pg_rh3w.jpg           1600w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/tiq6pg_rh3w-300x200.jpg    300w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/tiq6pg_rh3w-1024x683.jpg  1024w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/tiq6pg_rh3w-768x512.jpg    768w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/tiq6pg_rh3w-1536x1024.jpg 1536w
+            {{ $backpack.Permalink }}           1600w,
+            {{ $backpack.Permalink }}    300w,
+            {{ $backpack.Permalink }}  1024w,
+            {{ $backpack.Permalink }}    768w,
+            {{ $backpack.Permalink }} 1536w
             "
             sizes="(max-width: 1600px) 100vw, 1600px"
           />
@@ -780,6 +793,7 @@
   <section class="gold-panel-left">
     <div class="gold-panel-inner">
       <div class="gold-panel-picture">
+        {{ $colleagues := (resources.Get "images/home/colleagues-working.jpg") }}
         <figure class="wp-block-image size-full">
           <img
             style="box-sizing: border-box; height: auto; max-width: 100%"
@@ -787,13 +801,13 @@
             decoding="async"
             width="1000"
             height="665"
-            src="http://bernadettes36.sg-host.com/wp-content/uploads/2024/08/colleagues-working.jpg"
+            src="{{ $colleagues.Permalink }}"
             alt="Colleagues Working"
             class="wp-image-1164"
             srcset="
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/colleagues-working.jpg         1000w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/colleagues-working-300x200.jpg  300w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/colleagues-working-768x511.jpg  768w
+              {{ $colleagues.Permalink}}         1000w,
+              {{ $colleagues.Permalink}}  300w,
+              {{ $colleagues.Permalink}}  768w
             "
             sizes="(max-width: 1000px) 100vw, 1000px"
           />
@@ -859,6 +873,7 @@
       </div>
 
       <div class="gold-panel-picture">
+        {{ $planning := (resources.Get "images/home/strategic-planning.jpg") }}
         <figure class="wp-block-image size-full">
           <img
             style="box-sizing: border-box; height: auto; max-width: 100%"
@@ -866,13 +881,13 @@
             decoding="async"
             width="1000"
             height="667"
-            src="http://bernadettes36.sg-host.com/wp-content/uploads/2024/08/strategic-planning.jpg"
+            src="{{ $planning.Permalink }}"
             alt="Strategic Planning"
             class="wp-image-1157"
             srcset="
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/strategic-planning.jpg         1000w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/strategic-planning-300x200.jpg  300w,
-              https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/strategic-planning-768x512.jpg  768w
+            {{ $planning.Permalink }}         1000w,
+            {{ $planning.Permalink }}  300w,
+            {{ $planning.Permalink }}  768w
             "
             sizes="(max-width: 1000px) 100vw, 1000px"
           />
@@ -912,7 +927,7 @@
             padding: 12px 36px;
             text-transform: uppercase;
           "
-          href="https://bernadettes36.sg-host.com/contact/"
+          href="{{ absURL "/contact" }}"
           >Get Involved</a
         >
       </div>

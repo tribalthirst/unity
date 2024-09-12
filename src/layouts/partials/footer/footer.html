@@ -19,6 +19,7 @@
         margin-left: auto;
       "
     >
+    {{ $footer := resources.Get "images/logos/header.png" }}
       <figure>
         <img
           style="height: 150px; object-fit: contain; vertical-align: middle"
@@ -26,16 +27,16 @@
           decoding="async"
           width="2710"
           height="1255"
-          src="http://bernadettes36.sg-host.com/wp-content/uploads/2022/01/logo-white-e1724975899545.png"
+          src="{{ $footer.Permalink }}"
           alt="Logo White"
           title="logo-white"
           srcset="
-            https://bernadettes36.sg-host.com/wp-content/uploads/2022/01/logo-white-e1724975899545.png          2710w,
-            https://bernadettes36.sg-host.com/wp-content/uploads/2022/01/logo-white-e1724975899545-300x139.png   300w,
-            https://bernadettes36.sg-host.com/wp-content/uploads/2022/01/logo-white-e1724975899545-1024x474.png 1024w,
-            https://bernadettes36.sg-host.com/wp-content/uploads/2022/01/logo-white-e1724975899545-768x356.png   768w,
-            https://bernadettes36.sg-host.com/wp-content/uploads/2022/01/logo-white-e1724975899545-1536x711.png 1536w,
-            https://bernadettes36.sg-host.com/wp-content/uploads/2022/01/logo-white-e1724975899545-2048x948.png 2048w
+          {{ $footer.Permalink }}         2710w,
+          {{ $footer.Permalink }} 1024w,
+          {{ $footer.Permalink }}   768w,
+          {{ $footer.Permalink }} 1536w,
+          {{ $footer.Permalink }} 2048w
+          {{ $footer.Permalink }}   300w,
           "
           sizes="(max-width: 2710px) 100vw, 2710px"
         />
@@ -297,7 +298,7 @@
 
               <p class="gb-headline gb-headline-154af9d8 gb-headline-text">
                 <a style="color: var(--color-base-1);"
-                  href="https://bernadettes36.sg-host.com/"
+                  href="{{ .Site.BaseURL }}"
                   data-type="page"
                   data-id="1028"
                   >The Unity Infusion Story</a
@@ -306,7 +307,7 @@
 
               <p class="gb-headline gb-headline-d0861808 gb-headline-text">
                 <a style="color: var(--color-base-1);"
-                  href="https://bernadettes36.sg-host.com/about-us/"
+                  href="{{ absURL "/about" }}"
                   data-type="page"
                   data-id="1029"
                   >Meet Our Founder</a
@@ -315,7 +316,7 @@
 
               <p class="gb-headline gb-headline-4b86b67e gb-headline-text">
                 <a style="color: var(--color-base-1);"
-                  href="https://bernadettes36.sg-host.com/category/projects/"
+                  href="{{ absURL "/projects" }}"
                   data-type="category"
                   data-id="18"
                   >Recent Projects</a
@@ -324,7 +325,7 @@
 
               <p class="gb-headline gb-headline-06119ee0 gb-headline-text">
                 <a style="color: var(--color-base-1);"
-                  href="https://bernadettes36.sg-host.com/privacy-policy-2/"
+                  href="{{ absURL "/privacy" }}"
                   data-type="page"
                   data-id="1026"
                   >Privacy Policy</a
