@@ -43,7 +43,7 @@ draft: false
             </div>
             <div style="width: 33.33%;height: 100%">
                 <h3 style="text-transform: uppercase;text-align: center;">Email</h3>
-                <p style="font-weight: normal; text-align: center; margin-bottom: 0px; color: var(--color-contrast-2);"><a href="mailto:info@infusingunity.org">info@infusingunity.org</a></p>
+                <p style="font-weight: normal; text-align: center; margin-bottom: 0px; color: var(--color-contrast-2);"><a href="mailto:info@infusingunity.com">info@infusingunity.com</a></p>
             </div>
             <div style="width: 33.33%;height: 100%">
                 <h3 style="text-transform: uppercase;text-align: center;">Phone</h3>

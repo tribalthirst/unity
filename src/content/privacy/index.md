@@ -18,7 +18,7 @@ draft: false
 
 <h2 class="gb-headline gb-headline-ec78988c gb-headline-text">Who we are</h2>
 
-<p class="gb-headline gb-headline-2627b351 gb-headline-text">Our website address is: https://infusingunity.org.</p>
+<p class="gb-headline gb-headline-2627b351 gb-headline-text">Our website address is: https://infusingunity.com.</p>
 
 
 
