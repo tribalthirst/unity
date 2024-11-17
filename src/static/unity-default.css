@@ -205,6 +205,7 @@ h2 {
   line-height: 1.2em;
   font-weight: 400;
   text-transform: none;
+  color: var(--color-contrast-4);
 }
 
 h3 {
@@ -213,6 +214,7 @@ h3 {
   line-height: 1.2em;
   font-weight: 400;
   text-transform: none;
+  color: var(--color-contrast-3);
 }
 
 h4 {
@@ -1183,4 +1185,13 @@ nav.toggled ul ul.sub-menu {
   .hide-on-desktop {
     display: none !important;
   }
+}
+
+#main{
+  color: var(--color-base-2);
+  background-color: #ffffff;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 65vh;
 }
