@@ -9,9 +9,6 @@ menus:
     - name: "About Us"
       url: "/about/"
       weight: 2
-    - name: "Our Work"
-      url: "/projects/"
-      weight: 3
     - name: "Contact"
       url: "/contact/"
       weight: 4
