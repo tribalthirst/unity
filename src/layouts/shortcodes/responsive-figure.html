@@ -1,0 +1,22 @@
+{{ $original := .Get "src" }}
+{{ $alt := .Get "alt" }}
+
+
+{{ $image := .Page.Resources.Get $original }}
+{{ $small := $image.Resize "480x" }}
+{{ $medium := $image.Resize "800x" }}
+{{ $large := $image.Resize "1200x" }}
+
+<figure  style="margin-left:60px; display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 40px;
+margin-inline-end: 40px;
+unicode-bidi: isolate;">
+  <img style="z-index: -1;"
+    src="{{ $small.RelPermalink }}" 
+    srcset="{{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 800w, {{ $large.RelPermalink }} 1200w" 
+    sizes="(max-width: 480px) 480px, (max-width: 800px) 800px, 1200px" 
+    alt="{{ $alt }}">
+
+</figure>
