@@ -7,6 +7,7 @@
   --color-base-1: #e4b463;
   --color-base-2: #ffffff;
   --color-accent: #f7f3dc;
+  --max-width: 2048px;
 }
 
 blockquote,
@@ -43,6 +44,14 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  margin-left:auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: var(--max-width); 
+  line-height: 1.5;
 }
 
 main {
@@ -91,19 +100,7 @@ textarea {
   outline: 1px dotted ButtonText;
 }
 
-body,
-button,
-input,
-select,
-textarea {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
-  font-weight: 400;
-  text-transform: none;
-  font-size: 17px;
-  line-height: 1.5;
-}
+
 
 p {
   margin-bottom: 1.5em;
@@ -1092,100 +1089,7 @@ nav.toggled ul ul.sub-menu {
   flex-direction: row-reverse;
 }
 
-@media (max-width: 768px) {
-  .hide-on-mobile {
-    display: none !important;
-  }
 
-  a,
-  body,
-  button,
-  input,
-  select,
-  textarea {
-    transition: all 0s ease-in-out;
-  }
-
-  .inside-header {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .site-header .header-widget {
-    margin-top: 1.5em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-
-  .site-content {
-    flex-direction: column;
-  }
-
-  .container .site-content .content-area {
-    width: auto;
-  }
-
-  .is-left-sidebar.sidebar,
-  .is-right-sidebar.sidebar {
-    width: auto;
-    order: initial;
-  }
-
-  .is-left-sidebar + .is-right-sidebar .inside-right-sidebar {
-    margin-top: 0;
-  }
-
-  .both-left .inside-left-sidebar,
-  .both-left .inside-right-sidebar,
-  .both-right .inside-left-sidebar,
-  .both-right .inside-right-sidebar {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  #main {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  body:not(.no-sidebar) #main {
-    margin-bottom: 0;
-  }
-
-  .alignleft,
-  .alignright {
-    float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .comment .children {
-    padding-left: 10px;
-    margin-left: 0;
-  }
-
-  .entry-meta {
-    font-size: inherit;
-  }
-
-  .entry-meta a {
-    line-height: 1.8em;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .hide-on-tablet {
-    display: none !important;
-  }
-}
-
-@media (min-width: 1025px) {
-  .hide-on-desktop {
-    display: none !important;
-  }
-}
 
 #main{
   color: var(--color-base-2);
