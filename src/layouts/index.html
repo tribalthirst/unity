@@ -418,8 +418,9 @@ margin-right: auto;
   <p
     style="
       text-align: center;
-      padding-right: 200px;
-      padding-left: 200px;
+      max-width: 800px;
+      margin-right: auto;
+      margin-left: auto;
       margin-bottom: 5em;
     "
   >
@@ -432,8 +433,8 @@ margin-right: auto;
   </p>
 
   <section class="gold-panel-left">
-    <div class="gold-panel-inner">
-      <div class="gold-panel-picture">
+
+      <div class="gold-panel-picture gold-panel-background-left">
        
         {{ $engagement := resources.Get "images/home/public-engagement.jpg" }}
  
@@ -460,7 +461,7 @@ margin-right: auto;
 
       <div class="gold-panel-text">
         <h3 class="gold-panel-heading">
-          <span class="gold-panel-icon">
+          <span class="gold-panel-icon hide-on-mobile">
             <svg
               class="gold-panel-svg"
               fill="#000000"
@@ -534,14 +535,13 @@ margin-right: auto;
           diverse stakeholders, setting the stage for collaborative action.
         </p>
       </div>
-    </div>
   </section>
 
   <section class="gold-panel-right">
-    <div class="gold-panel-inner">
+
       <div class="gold-panel-text">
         <h3 class="gold-panel-heading">
-          <span class="gold-panel-icon"
+          <span class="gold-panel-icon hide-on-mobile"
             ><svg
               class="gold-panel-svg"
               xml:space="preserve"
@@ -579,7 +579,7 @@ margin-right: auto;
         </p>
       </div>
 
-      <div class="gold-panel-picture">
+      <div class="gold-panel-picture gold-panel-background-right">
         {{ $women := resources.Get "images/home/three-women.jpg" }}
         <figure class="wp-block-image size-full">
           <img
@@ -600,12 +600,10 @@ margin-right: auto;
             sizes="(max-width: 1600px) 100vw, 1600px"
           />
         </figure>
-      </div>
     </div>
   </section>
 
-  <section class="gold-panel-left">
-    <div class="gold-panel-inner">
+  <section class="gold-panel-left gold-panel-background-left">
       <div class="gold-panel-picture">
         
       {{ $storytelling := (resources.Get "images/home/microphone.jpg") }}
@@ -640,13 +638,7 @@ margin-right: auto;
             text-transform: capitalize;
           "
         >
-          <span
-            style="
-              line-height: 0;
-              color: var(--color-base-1);
-              padding-bottom: 0.5em;
-            "
-            ><svg
+          <span class="gold-panel-icon hide-on-mobile"><svg 
               style="width: 2.5em; height: 2.5em; fill: currentColor"
               aria-hidden="true"
               role="img"
@@ -670,14 +662,13 @@ margin-right: auto;
           mandate for change, and lay out a shared and optimistic path forward.
         </p>
       </div>
-    </div>
+
   </section>
 
   <section class="gold-panel-right">
-    <div class="gold-panel-inner">
       <div class="gold-panel-text">
         <h3 class="gold-panel-heading">
-          <span class="gold-panel-icon">
+          <span class="gold-panel-icon hide-on-mobile">
             <svg
               class="gold-panel-svg"
               xmlns="http://www.w3.org/2000/svg"
@@ -713,7 +704,7 @@ margin-right: auto;
         </p>
       </div>
 
-      <div class="gold-panel-picture">
+      <div class="gold-panel-picture gold-panel-background-right">
         
       {{ $backpack := (resources.Get "images/home/backpack.jpg") }}
         <figure>
@@ -737,12 +728,12 @@ margin-right: auto;
           />
         </figure>
       </div>
-    </div>
+
   </section>
 
   <section class="gold-panel-left">
-    <div class="gold-panel-inner">
-      <div class="gold-panel-picture">
+
+      <div class="gold-panel-picture gold-panel-background-right">
         {{ $colleagues := (resources.Get "images/home/colleagues-working.jpg") }}
         <figure class="wp-block-image size-full">
           <img
@@ -766,7 +757,7 @@ margin-right: auto;
 
       <div class="gold-panel-text">
         <h3 class="gold-panel-heading">
-          <span class="gold-panel-icon"
+          <span class="gold-panel-icon hide-on-mobile"
             ><svg
               class="gold-panel-svg"
               aria-hidden="true"
@@ -791,14 +782,12 @@ margin-right: auto;
           commitment.
         </p>
       </div>
-    </div>
   </section>
 
   <section class="gold-panel-right">
-    <div class="gold-panel-inner">
       <div class="gold-panel-text">
         <h3 class="gold-panel-heading">
-          <span class="gold-panel-icon"
+          <span class="gold-panel-icon hide-on-mobile"
             ><svg
               class="gold-panel-svg"
               aria-hidden="true"
@@ -822,7 +811,7 @@ margin-right: auto;
         </p>
       </div>
 
-      <div class="gold-panel-picture">
+      <div class="gold-panel-picture gold-panel-background-right">
         {{ $planning := (resources.Get "images/home/strategic-planning.jpg") }}
         <figure class="wp-block-image size-full">
           <img
@@ -843,7 +832,7 @@ margin-right: auto;
           />
         </figure>
       </div>
-    </div>
+
   </section>
 </section>
 <section class="movement-panel">
