@@ -198,6 +198,7 @@
     .banner-text{
        padding-left:10px;
        margin:40px;
+       height: unset;
     }
 .approach-container{
     max-width: var(--max-width);
