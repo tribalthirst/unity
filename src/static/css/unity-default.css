@@ -539,11 +539,24 @@ h3.gold-panel-heading {
 
 .approach-container {
   max-width: 1300px;
-  display: flex;
-  column-gap: 120px;
+  display: grid;
+  grid-template-areas: "left right";
+  grid-template-rows: auto auto;  
+  column-gap: 10%;
   padding: 100px 40px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.approach-image-panel{
+  grid-row: 1;
+  grid-area: left;
+  padding: 10px 20px;
+}
+
+.approach-text-panel{
+  grid-row:1;
+  grid-area: right;
 }
 
 .join-movement-container {

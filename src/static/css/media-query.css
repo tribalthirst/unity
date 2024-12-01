@@ -199,6 +199,25 @@
        padding-left:10px;
        margin:40px;
     }
+.approach-container{
+    max-width: var(--max-width);
+    padding: 5px 5px;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    'left';
+    column-gap: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .approach-image-panel{
+    grid-area: left;
+    grid-row: 1;
+  }
+  .approach-text-panel{
+    grid-area: left;
+    grid-row: 2;
+  }
+
   .join-movement-container{
     max-width: var(--max-width);
     grid-template-rows: auto auto;
