@@ -512,6 +512,19 @@ a {
   margin-bottom: 20px;
 }
 
+.footer-panel{  
+  max-width: 1300px;
+  z-index: 1;
+  position: relative;
+  padding: 100px 40px 40px;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-areas: 'left middle right';
+  column-gap: 80px;
+}
+
 .gold-panel-background-left{
   margin-bottom: 40px;
   padding-top: 100px;
