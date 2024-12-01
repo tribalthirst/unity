@@ -1,27 +1,17 @@
 {{define "main"}}
 <section class="hero-section">
-  <div
-    style="
-      z-index: 1;
-      position: relative;
-      overflow-x: hidden;
-      overflow-y: hidden;
-      padding-top: 75px;
-      padding-bottom: 75px;
-      margin-right: auto;
-      margin-left: auto;
-    "
-  >
+  <div class="banner-text">
     <div
       style="
-        width: 70%;
+        padding:10px;
         height: 100%;
-        padding-left: 40px;
+
         border-left: 10px solid var(--color-base-2);
       "
     >
       <h1
         style="
+
           display: inline-block;
           padding: 8px 16px;
           color: var(--color-base-2);
@@ -34,6 +24,7 @@
 
       <h1
         style="
+
           display: inline-block;
           padding: 8px 16px;
           color: var(--color-base-2);
@@ -43,7 +34,7 @@
         Building Stronger Communities
       </h1>
 
-      <p style="font-size: 18px; padding: 8px; color: var(--color-base-2)">
+      <p style="font-size: 18px; padding-left: 10px; color: var(--color-base-2)">
         Unity Infusion is a culturally-significant,&nbsp;grassroots organization
         on a mission to build socially connected, equitable, and empowered
         communities. We bridge divides, foster collaboration, and uplift
@@ -71,38 +62,17 @@
       <section>
         <div
           style="
-            margin-right: auto;
+
+margin-right: auto;
             margin-left: auto;
             background-color: var(--color-contrast-2);
           "
         >
-          <div
+          <div class="join-movement-container">
 
-            style="
-              max-width: 1300px;
-              display: flex;
-              flex-direction: row;
-              align-items: stretch;
-              justify-content: space-between;
-              column-gap: 60px;
-              margin-right: auto;
-              margin-left: auto;
-            "
-          >
             <div
-              style="
-                width: 50%;
-                height: 40%;
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                padding-top: 40px;
-                padding-right: 60px;
-                padding-left: 60px;
-                margin-right: auto;
-                margin-left: auto;
-                background-color: var(--color-contrast-3);
-              "
+            class="join-movement-panel"
+
             >
               <h2 style="font-weight: 700; color: var(--color-base-2)">
                 Join the movement and become a part of our community.
@@ -254,37 +224,25 @@
               </p>
             </div>
 
-            <div
-              style="
-                width: 50%;
-                display: flex;
-                float: left;
-                flex-direction: column;
-              "
-            >
+            <div class="join-movement-founder-panel">
             
       {{ $profile := (resources.Get "images/home/profile.jpg") }}
-              <div
-                style="
-                  height: 60%;
-                  padding-top: 60px;
-                  padding-left: 60px;
-                  background-image: url({{ $profile.Permalink }});
-                  background-repeat: no-repeat;
-                  background-position: center center;
-                  background-size: cover;
-                "
-              ></div>
+              <div >
+                <img class="join-movement-founder-image"
+                  src="{{ $profile.Permalink }}"
+                  alt="Dr. JMarie Johnson-Kola"
+
+                />
+              </div>
 
               <div
                 style="
-                  height: 40%;
-                  display: flex;
-                  flex-direction: column;
-                  align-items: flex-start;
+
                   padding-top: 40px;
                   padding-right: 60px;
                   padding-left: 60px;
+                  padding-bottom: 20px;
+                  margin-top:0px
                   margin-right: auto;
                   margin-left: auto;
                   background-color: var(--color-contrast-4);
@@ -307,7 +265,7 @@
                     font-size: 16px;
                     font-weight: 700;
                     letter-spacing: 2px;
-                    margin-bottom: 2rem;
+                    margin-bottom: 2em;
                     padding: 12px 36px;
                     text-transform: uppercase;
                   "
@@ -319,20 +277,12 @@
           </div>
         </div>
       </section>
+      
 <section style="background-color: var(--color-base-1)">
-  <div
-    style="
-      max-width: 1300px;
-      display: flex;
-      column-gap: 120px;
-      padding: 100px 40px;
-      margin-right: auto;
-      margin-left: auto;
-    "
-  >
-    <div>
+  <div class="approach-container">
+    <div class="approach-image-panel">
       {{ $hands := (resources.Get "images/home/hands.jpg") }}
-      <div
+      <div 
         style="
           min-height: 500px;
           display: flex;
@@ -362,7 +312,7 @@
       </p>
     </div>
 
-    <div style="width: 50%">
+    <div class="approach-text-panel">
       <div class="gb-inside-container">
         <h2
           class="gb-headline gb-headline-f462ba69 gb-headline-text preheading"
@@ -934,4 +884,5 @@
     </div>
   </div>
 </section>
+
 {{end}}
