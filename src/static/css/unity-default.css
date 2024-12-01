@@ -470,6 +470,18 @@ a {
 .nav-align-right .inside-navigation {
   justify-content: flex-end;
 }
+
+.about-us-panel{
+  max-width: 1300px;
+  display: grid; 
+  grid-template-columns: auto auto;
+  grid-template-areas: 'left right';
+  column-gap: 80px; 
+  padding: 100px 40px; 
+  margin-right: auto; 
+  margin-left: auto;
+}
+
 .gold-panel-background-left{
   margin-bottom: 40px;
   padding-top: 100px;
@@ -626,7 +638,7 @@ padding:5% 20%;
 
 .movement-panel::before {
   content: "";
-  background-image: url(https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/people-seminar.jpg);
+  background-image: url(../images/people-seminar.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -700,7 +712,7 @@ padding:5% 20%;
 
 .hero-section::before {
   content: "";
-  background-image: url(https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/hero-image.jpg);
+  background-image: url(../images/hero-image.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -731,7 +743,7 @@ padding:5% 20%;
 
 .site-footer::before {
   content: "";
-  background-image: url(https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/hero-image.jpg);
+  background-image: url(../images/hero-image.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

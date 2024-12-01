@@ -200,6 +200,24 @@
        margin:40px;
        height: unset;
     }
+.about-us-panel{
+    max-width: var(--max-width);
+    padding: 5px 5px;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    'left';
+    column-gap: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.about-us-image-panel{
+    grid-area: left;
+    grid-row: 1;
+}
+.about-us-text-panel{
+    grid-area: left;
+    grid-row: 2;
+}
 .approach-container{
     max-width: var(--max-width);
     padding: 5px 5px;
