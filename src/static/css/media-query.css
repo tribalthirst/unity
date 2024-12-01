@@ -193,7 +193,7 @@
 
   @media (max-width: 550px) {
     :root{
-        --max-width: 375px;
+        --max-width: 550px;
     }
     .banner-text{
        padding-left:10px;
