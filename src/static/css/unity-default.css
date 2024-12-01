@@ -537,6 +537,15 @@ h3.gold-panel-heading {
   background-color: var(--color-contrast-2);
 }
 
+.approach-container {
+  max-width: 1300px;
+  display: flex;
+  column-gap: 120px;
+  padding: 100px 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .join-movement-container {
   max-width: 1300px;
   display: grid;
@@ -565,6 +574,8 @@ h3.gold-panel-heading {
 
 .join-movement-founder-image {
   width: 100%;
+  max-height: 400px;
+  object-fit: cover;
 }
 .movement-panel {
   position: relative;
@@ -612,7 +623,7 @@ h3.gold-panel-heading {
 
 .header-banner::before {
   content: "";
-  background-image: url(https://bernadettes36.sg-host.com/wp-content/uploads/2024/08/hero-image.jpg);
+  background-image: url(../images/hero-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

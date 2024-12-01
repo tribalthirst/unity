@@ -227,8 +227,8 @@ margin-right: auto;
             <div class="join-movement-founder-panel">
             
       {{ $profile := (resources.Get "images/home/profile.jpg") }}
-              <div class="join-movement-founder-image">
-                <img
+              <div >
+                <img class="join-movement-founder-image"
                   src="{{ $profile.Permalink }}"
                   alt="Dr. JMarie Johnson-Kola"
 
@@ -277,18 +277,9 @@ margin-right: auto;
           </div>
         </div>
       </section>
-      <!--
+      
 <section style="background-color: var(--color-base-1)">
-  <div
-    style="
-      max-width: 1300px;
-      display: flex;
-      column-gap: 120px;
-      padding: 100px 40px;
-      margin-right: auto;
-      margin-left: auto;
-    "
-  >
+  <div class="approach-container">
     <div>
       {{ $hands := (resources.Get "images/home/hands.jpg") }}
       <div
@@ -893,5 +884,5 @@ margin-right: auto;
     </div>
   </div>
 </section>
--->
+
 {{end}}
