@@ -236,6 +236,18 @@
     grid-area: left;
     grid-row: 2;
   }
+  .contact-us-panel{
+    max-width: 1300px;
+    display: grid; 
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 'left' 'middle' 'right';
+    column-gap: 80px; 
+    padding: 10px 10px; 
+    margin-right: auto; 
+    margin-left: auto;
+  }
+
   .gold-panel-background-left{
     padding:0;
     margin: 0;

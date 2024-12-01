@@ -481,6 +481,36 @@ a {
   margin-right: auto; 
   margin-left: auto;
 }
+.contact-us-panel{
+  max-width: 1300px;
+  display: grid; 
+  grid-template-columns: auto auto auto;
+  grid-template-areas: 'left middle right';
+  column-gap: 80px; 
+  padding: 10px 10px; 
+  margin-right: auto; 
+  margin-left: auto;
+}
+.contact-text{
+  font-weight: normal; 
+  text-align: center; 
+  margin-bottom: 0px; 
+  color: var(--color-contrast-2);
+}
+.contact-heading{text-transform: uppercase;text-align: center; margin-bottom: 0px;}
+
+.contact-location{
+  grid-area: left;
+  margin-bottom: 20px;
+}
+.contact-email{
+  grid-area: middle;
+  margin-bottom: 20px;
+}
+.contact-phone{
+  grid-area: right;
+  margin-bottom: 20px;
+}
 
 .gold-panel-background-left{
   margin-bottom: 40px;

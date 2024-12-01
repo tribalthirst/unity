@@ -36,18 +36,18 @@ draft: false
             text-transform: capitalize;
             text-align: center;
             margin-bottom: 80px;">Contact information</h2>
-        <div style="column-gap: 120px;display: flex;">
-            <div style="width: 33.33%;height: 100%">
-                <h3 style="text-transform: uppercase;text-align: center;">Location</h3>
-                <p style="font-weight: normal; text-align: center; margin-bottom: 0px; color: var(--color-contrast-2);">Puyallup, Washington</p>
+        <div class="contact-us-panel">
+            <div class="contact-location">
+                <h3 class="contact-heading">Location</h3>
+                <p class="contact-text">Puyallup, Washington</p>
             </div>
-            <div style="width: 33.33%;height: 100%">
-                <h3 style="text-transform: uppercase;text-align: center;">Email</h3>
-                <p style="font-weight: normal; text-align: center; margin-bottom: 0px; color: var(--color-contrast-2);"><a href="mailto:info@infusingunity.com">info@infusingunity.com</a></p>
+            <div class="contact-email">
+                <h3 class="contact-heading">Email</h3>
+                <p class="contact-text"><a href="mailto:info@infusingunity.com">info@infusingunity.com</a></p>
             </div>
-            <div style="width: 33.33%;height: 100%">
-                <h3 style="text-transform: uppercase;text-align: center;">Phone</h3>
-                <p style="font-weight: normal; text-align: center; margin-bottom: 0px; color: var(--color-contrast-2);"><a href="tel:+44 121 354678">(425) 903-0614</a></p>
+            <div class="contact-phone">
+                <h3 class="contact-heading">Phone</h3>
+                <p class="contact-text"><a href="tel:+44 121 354678">(425) 903-0614</a></p>
             </div>
         </div>
     </section>
