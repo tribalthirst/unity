@@ -99,7 +99,7 @@ draft: false
       {{<responsive-figure src="keiko.jpg" alt="Dr. Keiko Ozeki" width="320">}}
       <div style="padding: 24px; width: 100%; text-align: center;">
         <h3 style="margin: 0 0 8px 0; font-size: 1.4rem; letter-spacing: 1px;">Dr. Keiko Ozeki</h3>
-        <div style="text-align: center; margin-bottom: 10px; color: #5f27cd; font-size: 1.08rem; font-weight: 600;">Hu Huaynuro</div>
+        <div style="text-align: center; margin-bottom: 10px; color: #5f27cd; font-size: 1.08rem; font-weight: 600;">Huayruro</div>
         <div style="background: linear-gradient(90deg, #7b5de3, #5f27cd); color: #fff; padding: 8px 0; border-radius: 4px; font-weight: bold; letter-spacing: 2px; margin-bottom: 20px; font-size: 1.1rem; text-transform: uppercase;">Co-Founder</div>
       </div>
     </div>
