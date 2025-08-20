@@ -72,6 +72,51 @@ draft: false
   </div>
 </section>
 
+<!-- Advisory Board Members Section -->
+<section class="board-members-section" style="background: #7b5de3; padding: 60px 0; margin-top: 0;">
+  <h2 style="text-align: center; color: #fff; font-size: 2.5rem; font-weight: bold; margin-bottom: 40px;">Advisory Board Members</h2>
+  <div class="board-members-cards" style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+    <!-- Card 1 -->
+    <div class="board-member-card" style="background: #fff; border-radius: 8px; overflow: hidden; width: 320px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); display: flex; flex-direction: column; align-items: center;">
+      {{<responsive-figure src="bridge.jpeg" alt="Bridge Jackson" width="320">}}
+      <div style="padding: 24px; width: 100%; text-align: center;">
+        <h3 style="margin: 0 0 8px 0; font-size: 1.4rem; letter-spacing: 1px;">Bridge Jackson</h3>
+        <div style="text-align: center; margin-bottom: 10px; color: #5f27cd; font-size: 1.08rem; font-weight: 600;">Quinvest</div>
+        <div style="background: linear-gradient(90deg, #7b5de3, #5f27cd); color: #fff; padding: 8px 0; border-radius: 4px; font-weight: bold; letter-spacing: 2px; margin-bottom: 20px; font-size: 1.1rem; text-transform: uppercase;">CEO/Founder</div>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="board-member-card" style="background: #fff; border-radius: 8px; overflow: hidden; width: 320px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); display: flex; flex-direction: column; align-items: center;">
+      {{<responsive-figure src="carlos.jpg" alt="Carlos A. Ortiz" width="320">}}
+      <div style="padding: 24px; width: 100%; text-align: center;">
+        <h3 style="margin: 0 0 8px 0; font-size: 1.4rem; letter-spacing: 1px;">Carlos A. Ortiz</h3>
+        <div style="text-align: center; margin-bottom: 10px; color: #5f27cd; font-size: 1.08rem; font-weight: 600;">Zeta-Maya Entertainment</div>
+        <div style="background: linear-gradient(90deg, #7b5de3, #5f27cd); color: #fff; padding: 8px 0; border-radius: 4px; font-weight: bold; letter-spacing: 2px; margin-bottom: 20px; font-size: 1.1rem; text-transform: uppercase;">Writer / Director / Producer</div>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="board-member-card" style="background: #fff; border-radius: 8px; overflow: hidden; width: 320px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); display: flex; flex-direction: column; align-items: center;">
+      {{<responsive-figure src="keiko.jpg" alt="Dr. Keiko Ozeki" width="320">}}
+      <div style="padding: 24px; width: 100%; text-align: center;">
+        <h3 style="margin: 0 0 8px 0; font-size: 1.4rem; letter-spacing: 1px;">Dr. Keiko Ozeki</h3>
+        <div style="text-align: center; margin-bottom: 10px; color: #5f27cd; font-size: 1.08rem; font-weight: 600;">Hu Huaynuro</div>
+        <div style="background: linear-gradient(90deg, #7b5de3, #5f27cd); color: #fff; padding: 8px 0; border-radius: 4px; font-weight: bold; letter-spacing: 2px; margin-bottom: 20px; font-size: 1.1rem; text-transform: uppercase;">Co-Founder</div>
+      </div>
+    </div>
+    <!-- Card 4 -->
+    <div class="board-member-card" style="background: #fff; border-radius: 8px; overflow: hidden; width: 320px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); display: flex; flex-direction: column; align-items: center;">
+      {{<responsive-figure src="shana.jpg" alt="Shana Barehand" width="320">}}
+      <div style="padding: 24px; width: 100%; text-align: center;">
+        <h3 style="margin: 0 0 8px 0; font-size: 1.4rem; letter-spacing: 1px;">Shana Barehand</h3>
+        <div style="text-align: center; margin-bottom: 10px; color: #5f27cd; font-size: 1.08rem; font-weight: 600;">Washington State Department of Enterprise Services</div>
+        <div style="background: linear-gradient(90deg, #7b5de3, #5f27cd); color: #fff; padding: 8px 0; border-radius: 4px; font-weight: bold; letter-spacing: 2px; margin-bottom: 20px; font-size: 1.1rem; text-transform: uppercase;">Business Diversity Outreach Manager</div>
+      </div>
+    </div>
+    <!-- Card 5 (hidden) -->
+    <div class="board-member-card" style="display:none;"></div>
+  </div>
+</section>
+
 <style>
 .board-member-card .responsive-figure {
   width: 100%;
