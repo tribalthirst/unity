@@ -53,6 +53,37 @@
   .main-navigation .menu-bar-items a {
     color: inherit;
   }
+
+  /* CTA button for Unity Spark Project styled as standard menu item */
+  .main-navigation .main-nav ul li.project-cta a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 60px;
+  }
+
+  /* Maintain button styling even when it's the current page */
+  .main-navigation .main-nav ul li.project-cta.current-menu-item a {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    line-height: 60px !important;
+  }
+
+  .main-navigation .main-nav ul li.project-cta .heart-icon {
+    font-size: 18px;
+    color: var(--color-contrast-4);
+  }
+
+  /* Maintain heart icon styling when current page */
+  .main-navigation .main-nav ul li.project-cta.current-menu-item .heart-icon {
+    font-size: 18px !important;
+    color: var(--color-contrast-4) !important;
+  }
   
   .main-navigation .menu-bar-item {
     position: relative;
