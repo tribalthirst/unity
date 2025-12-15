@@ -4,11 +4,11 @@ date: 2025-11-26T08:52:31-08:00
 draft: false
 ---
 
-<!-- White Background Section with Event Description -->
-<div class="event-description" style="background-color: white; color: #333; padding: 40px 20px; text-align: center; font-family: inherit; line-height: 1.6;">
+<!-- Golden Background Section with Event Description -->
+<div class="event-description" style="background-color: #d4a574; color: #333; padding: 40px 20px; text-align: center; font-family: inherit; line-height: 1.6;">
   <div style="max-width: 800px; margin: 0 auto;">
     <p style="font-size: 18px; margin: 0; font-weight: normal;">
-      <strong>Puyallup, WA — January 19, 2026 —</strong> Puyallup will make history as our beloved community comes together for its <strong>first-ever communitywide Martin Luther King Jr. Day Celebration</strong>, hosted at <strong>Praise Chapel</strong>, Puyallup's historic Black church. This landmark event is an opportunity for neighbors, friends, and families to unite in the spirit of Dr. King's vision of justice, equality, and beloved community. <strong>All are welcome to join in this day of unity, reflection, and joyful connection.</strong>
+      Puyallup will make history as our beloved community comes together for its <strong>first-ever community wide Martin Luther King Jr. Day Celebration</strong>, hosted at <strong>Praise Chapel</strong>, Puyallup's historic Black church. This landmark event is an opportunity for neighbors, friends, and families to unite in the spirit of Dr. King's vision of justice, equality, and beloved community. <strong>All are welcome to join in this day of unity, reflection, and joyful connection.</strong>
     </p>
   </div>
 </div>
@@ -42,8 +42,13 @@ draft: false
   <div class="event-details" style="margin: 40px 0; text-align: left; max-width: 600px; margin-left: auto; margin-right: auto;">
     <h3 style="font-size: 22px; color: #ffcc00; margin-bottom: 15px; text-align: center;">Event Highlights Include:</h3>
     <p style="font-size: 18px; margin-bottom: 10px; text-align: center; font-weight: bold;">Special Live Performances and Hands-On Activities:</p>
-    <p style="font-size: 16px; text-align: center; line-height: 1.6;">
-      Featuring Gospel Singers, Dancers, Spoken Word Artists, Art Experience, and More!
+    <p style="font-size: 16px; text-align: center; line-height: 2.0;">
+      Featuring:<br>
+      Gospel Singers<br>
+      Dancers<br>
+      Spoken Word Artists<br>
+      Art Experience<br>
+      and More!
     </p>
   </div>
 
@@ -52,7 +57,7 @@ draft: false
   <!-- Unity Infusion Logo Section -->
   <div class="logo-section" style="margin: 30px 0;">
     <div style="display: inline-block;">
-      <img src="/images/logos/header.png" alt="Unity Infusion - A Social Purpose Corporation" width="100" />
+      <img src="/images/logos/header.png" alt="Unity Infusion - A Social Purpose Corporation" width="300" />
     </div>
   </div>
 
