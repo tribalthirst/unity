@@ -24,12 +24,59 @@ aliases:
 </div>
 </section>
 
+<section style="padding: 30px 20px 12px 20px; background-color: #ffffff;">
+  <div style="max-width: 1300px; margin: 0 auto; padding: 30px 40px; box-sizing: border-box;">
+    <p style="color: var(--color-contrast-3); font-size: 22px; line-height: 1.6; text-align: center; margin: 0 0 24px 0; font-weight: 600;">
+      We're bringing back the lost art of knowing your neighbor – because everyone deserves to feel seen, safe and connected.
+    </p>
+    <p style="color: var(--color-contrast-3); font-size: 18px; line-height: 1.8; margin: 0 0 24px 0;">
+      Unity Spark is launching Hello Puyallup: Images of Our Beloved Community—neighbors interviewing and photographing neighbors so our city can truly see each other (City Art Walk). Then we turn ‘seeing’ into ‘belonging’ through Summer Fun Groups and deepen it through weekly Cultural Exchange Experiences. In October, we celebrate everything we learned with a community festival inspired by Folklorama—pavilions, food, performances, and stories.
+    </p>
+    <p style="color: var(--color-contrast-3); font-size: 20px; line-height: 1.6; margin: 0 0 12px 0; font-weight: 700;">The outcome is simple:</p>
+    <p style="color: var(--color-contrast-3); font-size: 20px; line-height: 1.6; margin: 0 0 20px 0;">a more socially connected Puyallup, because:</p>
+    <p style="color: var(--color-contrast-3); font-size: 17px; line-height: 1.8; margin: 0 0 14px 0;">
+      (1) strong human connection is the foundation of individual wellbeing and a thriving, resilient community.
+    </p>
+    <p style="color: var(--color-contrast-3); font-size: 17px; line-height: 1.8; margin: 0 0 14px 0;">
+      (2) when people are seen, known, and connected, wellbeing grows and the Beloved Community becomes possible.
+    </p>
+    <p style="color: var(--color-contrast-3); font-size: 17px; line-height: 1.8; margin: 0 0 14px 0;">
+      (3) social connection is one of the strongest predictors of health, happiness, and community resilience.
+    </p>
+    <p style="color: var(--color-contrast-3); font-size: 17px; line-height: 1.8; margin: 0 0 14px 0;">
+      (4) belonging heals, connection strengthens, and communities flourish when no one feels invisible.
+    </p>
+    <p style="color: var(--color-contrast-3); font-size: 17px; line-height: 1.8; margin: 0 0 14px 0;">
+      (5) communities with strong social bonds experience greater wellbeing, trust, and shared responsibility for one another.
+    </p>
+    <p style="color: var(--color-contrast-3); font-size: 17px; line-height: 1.8; margin: 0;">
+      (6) connection is how wellbeing takes root and a community learns to thrive together.
+    </p>
+  </div>
+</section>
 
-<section style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('register-background.jpg'); background-size: cover; background-position: center; padding: 60px 0; text-align: center; color: white;">
-  <h2 style="text-align: center; color: #fff; font-size: 2.5rem; font-weight: bold; margin-bottom: 40px;">Join the inaugural Cultural Exchange & Civic Leadership Cohort</h2>
-  <div style="max-width: 800px; margin: 0 auto; padding: 0 20px;">
-    <p style="font-size: 1.1rem; line-height: 1.6; margin: 30px auto; max-width: 600px; color: #fff;">You'll gain powerful connections, new skills, and the opportunity to help shape unity and leadership—locally, regionally, statewide, and nationally.</p>
-    <p style="font-size: 1.1rem; line-height: 1.6; margin: 30px auto; color: #fff;">Your participation helps us build a truly inclusive and impactful experience for our entire community. Together, we can spark lasting change!</p>
-    <a href="https://forms.office.com/r/qqDtZyC2v5" target="_blank" style="background: white; color: #7b5de3; border: none; padding: 15px 30px; font-size: 16px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; border-radius: 4px; cursor: pointer; margin-top: 20px; text-decoration: none; display: inline-block;">Apply now!</a>
+<section style="padding: 12px 20px 40px 20px; background-color: #ffffff;">
+  <div style="max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px;">
+    <div style="background-color: #f7f3ff; border-radius: 10px; padding: 30px 24px; text-align: center;">
+      <h2 style="margin: 0; color: #7b5de3; font-size: clamp(24px, 3vw, 34px); font-weight: 700;">This is our Civic Call to Action!</h2>
+      <p style="margin: 18px 0 0 0; color: var(--color-contrast-3); font-size: 18px; line-height: 1.8;">
+        Our Foundational Invitation<br>
+        Our Guiding Call<br>
+        Our Core Civic Message<br>
+        Our Unifying Call to Begin
+      </p>
+    </div>
+    <div style="background-color: #fff6e5; border-radius: 10px; padding: 30px 24px; text-align: center;">
+      <h2 style="margin: 0; color: #7b5de3; font-size: clamp(24px, 3vw, 34px); font-weight: 700;">Hello Neighbor</h2>
+      <p style="margin: 18px 0 0 0; color: var(--color-contrast-3); font-size: 18px; line-height: 1.8;">
+        Say hello to a neighbor you haven’t met.<br>
+        We don’t heal communities by arguing.<br>
+        We heal them by beginning.<br>
+        Division is the poison.<br>
+        Connection is the cure.<br>
+        BE THE ANTIDOTE.<br>
+        Start with hello.
+      </p>
+    </div>
   </div>
 </section>

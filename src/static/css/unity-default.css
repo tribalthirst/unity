@@ -477,7 +477,7 @@ a {
   grid-template-columns: auto auto;
   grid-template-areas: 'left right';
   column-gap: 80px; 
-  padding: 100px 40px; 
+  padding: 100px 40px 50px; 
   margin-right: auto; 
   margin-left: auto;
 }

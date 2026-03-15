@@ -8,7 +8,10 @@ draft: false
 <div class="event-description" style="background-color: #d4a574; color: #333; padding: 40px 20px; text-align: center; font-family: inherit; line-height: 1.6;">
   <div style="max-width: 800px; margin: 0 auto;">
     <p style="font-size: 18px; margin: 0; font-weight: normal;">
-      Puyallup will make history as our beloved community comes together for its <strong>first-ever community wide Martin Luther King Jr. Day Celebration</strong>, hosted at <strong>Praise Chapel</strong>, Puyallup's historic Black church. This landmark event is an opportunity for neighbors, friends, and families to unite in the spirit of Dr. King's vision of justice, equality, and beloved community. <strong>All are welcome to join in this day of unity, reflection, and joyful connection.</strong>
+      <strong>Puyallup has made history.</strong> More than 400 neighbors came together at Praise Chapel—Puyallup’s historic Black church—for the city’s first-ever community-wide Martin Luther King Jr. Day Celebration. This powerful gathering embodied Dr. King’s vision of justice, equality, and beloved community, as neighbors, friends, and families united in a spirit of reflection, joy, and genuine connection. The energy, love, and shared humanity experienced that day will live on through photos and videos of this historic moment, which will be shared soon—inviting the wider community to witness what is possible when we come together.
+    </p>
+    <p style="font-size: 18px; margin: 20px 0 0 0; font-weight: normal;">
+      <strong>And this was just the beginning.</strong> In response to the resounding call from attendees—“<strong>Let’s keep this going!</strong>”—the work continues through the <strong>Unity Spark Project’s “Hello Puyallup” initiative</strong>, a community-building effort designed to turn connection into lasting action. Join us, stay engaged, and help carry this spirit forward.
     </p>
   </div>
 </div>
